@@ -5,6 +5,7 @@
     <TargetFramework Condition=" '$(SitecoreVersion)' == '9.0.171219' ">net462</TargetFramework>
     <TargetFramework Condition=" '$(SitecoreVersion)' == '9.0.180604' ">net462</TargetFramework>
     <AddSyntheticProjectReferencesForSolutionDependencies>false</AddSyntheticProjectReferencesForSolutionDependencies>
+    <TargetFramework>net48</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
     <None Remove="App_Config\Include\Contrib.Sitecore.ContentSearch\zzzSitecore.ContentSearch.Azure.DefaultIndexConfiguration.config" />
